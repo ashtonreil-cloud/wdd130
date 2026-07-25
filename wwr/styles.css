@@ -3,6 +3,8 @@ main {
     font-family: cursive;
     font-size: auto;
     width: auto;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 main img {
@@ -28,21 +30,32 @@ h1 {
 nav {
     background-color: rgb(187, 101, 218);
     padding: 10px;
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
 }
 
-p { 
-    padding:0;
+p {
+    padding: 0;
     padding: 10px;
 }
 
 img {
- 
+
     border: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -50,18 +63,19 @@ img {
 aside {
     width: 20em;
     margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2); 
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
     background-color: pink;
     color: #000000;
     text-align: center;
+
 }
 
 aside img {
-     width:200px;
+    width: 200px;
 }
-    
-.logodiv img{
+
+.logodiv img {
     width: 30px;
     margin-bottom: auto;
 }
@@ -71,3 +85,19 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {}
+
+aside {
