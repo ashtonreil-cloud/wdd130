@@ -97,3 +97,16 @@ footer {
     display: grid;
     align-items: center;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.flex-country {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
