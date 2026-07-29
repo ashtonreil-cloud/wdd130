@@ -34,12 +34,12 @@ article {
     text-decoration: none;
 }
 
-.hero {
+.superman {
     background-image: url(../images/banner.jpg);
     height: 250px;
 }
 
-.hero img {
+.superman img {
 
     display: block;
     width: 100%;
@@ -50,12 +50,12 @@ article {
 
 }
 
-.hero article img {
+.superman article img {
     float: right;
     width: 125px;
 }
 
-.hero h1 {
+.superman h1 {
     top: 20px;
     width: 100%;
     padding: 16px;
