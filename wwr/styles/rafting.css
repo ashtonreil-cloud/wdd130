@@ -1,3 +1,12 @@
+:root {
+    --primary-color: #5a98e3;
+    --secondary-color: #e287c7;
+    --accent1-color: #28647c;
+    --accent2-color: #2cc3a2;
+    --body-font: Arial, Helvetica, sans-serif;
+    --head-font: "Times New Roman", times, serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -37,6 +46,7 @@ article {
 .hero {
     background-image: url(../images/banner.jpg);
     height: 250px;
+    position: relative;
 }
 
 .hero img {
@@ -47,6 +57,11 @@ article {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+}
+
+.hero article {
+    position: absolute;
 
 }
 
@@ -63,6 +78,7 @@ article {
     opacity: 0.7;
     background-color: #7C1188;
     color: #27E570;
+    position: absolute;
 
 }
 
