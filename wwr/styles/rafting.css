@@ -135,7 +135,7 @@ section {
     display: flex;
     border: 1px solid #28647c;
     border-radius: 4px;
-    align-items: row;
+    flex-direction: row;
     gap: 10px;
 
 }
@@ -155,7 +155,7 @@ section {
 
 .history-container {
     display: flex;
-    align-items: column;
+    flex-direction: column;
 
 }
 
@@ -179,7 +179,7 @@ section {
 }
 
 .imgs img {
-    width: 150spx;
+    width: 150px;
     height: 75px;
 
 }
