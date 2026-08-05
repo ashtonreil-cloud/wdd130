@@ -78,7 +78,7 @@ h2 {
     height: 140px;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: ;
+
 }
 
 section {
@@ -91,7 +91,7 @@ section {
     display: flex;
     border: 1px solid #28647c;
     border-radius: 4px;
-    align-items: row;
+    flex-direction: row;
     gap: 10px;
 
 }
@@ -137,7 +137,7 @@ img {
 .imgs {
     display: flex;
     flex-direction: row;
-    float: center;
+
 }
 
 .imgs img {
