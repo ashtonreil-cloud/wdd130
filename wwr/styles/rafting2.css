@@ -164,13 +164,45 @@ iframe {
 
 }
 
+.boxes {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input#Message.inputs {
+    height: 50px;
+    width: 300px;
+}
+
 .info {
     text-align: center;
 
 }
 
 .Questions {
-    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-left: 40%;
+
+}
+
+.p1 {
+    display: flex;
+
+    width: 30px;
+    align-items: center;
+
+}
+
+.messagepurpose {
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
 }
 
 .bottom-elements {
