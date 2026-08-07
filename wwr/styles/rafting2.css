@@ -8,7 +8,7 @@
 }
 
 .link-box {
-    display: flexbox;
+
     display: flex;
     text-decoration: underline;
     text-decoration: overline;
@@ -207,8 +207,6 @@ input#Message.inputs {
 
     width: 30px;
     align-items: center;
-
-    float: auto;
 
 }
 
